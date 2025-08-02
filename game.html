@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Play Newton's Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="game-page">
+  <div class="game-container">
+    <p id="angle-display">Angle: --</p>
+    <p id="result-msg"></p>
+
+
+    <div class="controls-horizontal">
+      <label>Gravity:
+        <input type="number" id="gravity-input" min="0" max="20" value="9.8" onchange="setGravity()">
+      </label>
+      <button onclick="dropApple()">Drop Apple</button>
+      <button onclick="resetGame()">Reset</button>
+      <button onclick="toggleGravityZone()">Anti-Gravity Zone</button>
+    </div>
+
+
+    <img src="apple.png" id="apple" class="apple hidden" />
+    <img src="newton_bgr.png" id="newton" class="newton" />
+    <img src="newtonevil.png" id="crying" class="crying hidden" />
+    <audio id="bonk-sound" src="bonk_AgRFvsD.mp3"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

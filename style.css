@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e6f7ff;
+  text-align: center;
+}
+
+
+.start-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #dff0d8;
+}
+
+
+.start-container button {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #ff5050;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.game-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* full screen height */
+  margin: 0;
+}
+
+
+
+.newton {
+  width: 100%;
+  max-width: 520px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+
+.apple {
+  width: 30px;
+  position: absolute;
+  top: 6000px;
+  left: 50%;
+  transform: translateX(-50%) rotate(0%deg);
+  transition: top 2s ease-in, left 2s ease-in;
+  z-index: 2;
+}
+
+
+.crying {
+  position: absolute;
+  width: 30%;
+  max-width: 400px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+#angle-display, #result-msg {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+
+
+
+.controls-horizontal {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4cae4c;
+}
