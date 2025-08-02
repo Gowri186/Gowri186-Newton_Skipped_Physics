@@ -23,8 +23,8 @@ For Software:
 - Javascript
 
 
-
-
+#Visit now:
+https://gowri186-newton-skipped-physics.vercel.app/
 
 
 
