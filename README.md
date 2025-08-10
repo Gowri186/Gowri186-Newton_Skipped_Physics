@@ -4,7 +4,7 @@
 
 ### Project Description
 
-A Funny Game[I guess so :) ] where newton is sitting under a tree and aplle falls into his head or other areas nearby him on button click. If the apple falls into his head, a message will be displayed, which instructs us to learn about Gravity and you cant esacpe learning it.
+A Funny Game[I guess so :) ] where newton is sitting under a tree and apple falls into his head or other areas nearby him on button click. If the apple falls into his head, a message will be displayed, which instructs us to learn about Gravity and you cant escape learning it.
 But, if it dosent fall into his head, YES!,  you"ll see the other side of what if it was not discoverd?
 
 !!!!! Make sure to turn your AUDIO ON !!!!!
